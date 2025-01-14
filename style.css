@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(181, 181, 181, 0.235);
+}
+.container-fluid{
+  position: sticky;
+  background-color: rgba(255, 255, 255, 0.235);
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.reels {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+  
+}
+#hom{
+  background-color: rgba(92, 92, 92, 0.374);
+  border-radius: 20% 20% 0% 0;
+  padding: 2px;
+}
+#homes{
+  gap: 100px;
+}
+#homes a:hover{
+  background-color: #b7b2b2;
+  border-radius: 50% 50% 50% 0 ;
+  margin-top: 2px;
+}
+#mw{
+  margin-left: 20px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  padding-right: 0px;
+}
+
+.reel {
+  width: 120px;
+  height: 200px;
+  background: #ddd;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover; /* or 100% 100% */
+  background-position: center;
+  text-align: justify;
+}
+.r1{
+  background-image: url(./img/FB_IMG_1656851526834.jpg);
+ 
+}
+.r2{
+  background-image: url(./img/FB_IMG_1656851521922.jpg);
+ 
+}
+.r3{
+  background-image: url(./img/IMG-20221106-WA0060.jpg);
+}
+.r4{
+  background-image: url(./img/FB_IMG_1656851581147.jpg);
+}
+.r5{
+  background-image: url(./img/FB_IMG_1656851515596.jpg);
+}
+.cyc img{
+  width: 20px;
+  border-radius: 100% 100% 100% 100%;
+  border: 2px solid rgb(87, 87, 87);
+}
+.sidebar1 {
+  
+  scroll-padding: 1px;
+  background-color: rgba(228, 228, 228, 0.235);
+  padding-top: 30px;
+ 
+}
+.sidebar2{
+  background-color: rgb(255, 255, 255);
+}
+.sidebar3{
+  background-color: rgba(228, 228, 228, 0.235);
+  padding-top: 30px;
+  
+  
+}
+.col-3.sticky-top {
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+li a {
+  text-decoration: none;
+  margin-bottom: 3px;
+
+  color: black;
+  font-weight: bolder;
+}
+
+.asd img {
+  text-align: justify;
+}
+
+.sidebar1 ul li a {
+  display: flex;
+  align-items: center; /* Aligns text and image vertically */
+  gap: 40px; 
+  text-decoration: none; 
+}
+.sidebar1 ul li a:hover{
+  background-color: rgba(219, 219, 219, 0.872);
+  border-radius: 4% 4% 4% 4% ;
+  padding: 6px;
+}
+.sidebar1 ul li {
+  margin-bottom: 10px; /* Adds space between list items */
+}
+
+.sidebar3 ul li a {
+  margin-left: 40px;
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  text-decoration: none;
+}
+.sidebar3 ul li a:hover{
+  background-color: rgba(219, 219, 219, 0.872);
+  border-radius: 10px;
+}
+.sidebar3 ul li {
+  margin-bottom: 10px; 
+}
+
+#story {
+  display: flex;
+  gap: 80%; 
+  text-decoration: none; /
+}
+#story a{
+  text-decoration: none; 
+  color: black;
+  font-weight: bolder;
+}
+
+.text-center{
+  margin-top: 0%;
+}
+#meee{
+  border-radius: 50%;
+}
